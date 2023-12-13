@@ -1,16 +1,15 @@
 @import url('reset.css');
 @import url('global.css');
-@import url('components/_navigator.css');
-@import url('components/_pills.css');
-@import url('components/_link-button.css');
-@import url('components/_gallery.css');
+@import url('./components/_navigator.css');
+@import url('./components/_pills.css');
+@import url('./components/_link-button.css');
+@import url('./components/_gallery.css');
 
 
 .s-wrapper {
   display: flex;
   height: 100vh;
-  flex-flow: row nowrap; 
-  background-color: aqua; 
+  flex-flow: row nowrap;   
 }
 
 .s-wrapper .s-left-column {
