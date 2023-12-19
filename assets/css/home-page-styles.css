@@ -214,5 +214,12 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
       height: 35vh;
       width: 14vh;
       margin-top: 150px     
-    }    
+    }   
+}
+
+@media screen and (max-width: 900px){
+  .s-card {
+    width: 35vh;
+    height: 53vh;
+  }  
 }
